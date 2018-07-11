@@ -15,7 +15,7 @@ proxy_user = 'XXXXXXX'
 proxy_pass = 'XXXXXXX'
 
 #The Array to take the names from
-teammembers = [['Ivan','Munic'],['Magdalena','Duvnjak']]
+teammembers = [['Munic'],['Magdalena'],['Leon'],['Fijucek'],['Bero']]
 
 SCHEDULER.every '15s', :first_in => 0 do |job|
     random_member = teammembers.sample
